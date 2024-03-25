@@ -20,30 +20,6 @@ st.set_page_config(page_title="ESG Interactive AI Dashboard", page_icon=":earth_
 st.title('🌏 ESG Interactive AI Dashboard')
 st.dataframe(data)
 
-import streamlit as st
-import plotly.express as px
-import pandas as pd
-import os
-import warnings
-warnings.filterwarnings('ignore')
-
-st.set_page_config(page_title="ESG Analysis Dashboard", page_icon=":earth_asia:",layout="wide")
-
-st.title(" :earth_asia: ESG Analysis Dashboard")
-st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow_html=True)
-
-def load_data():
-    df = pd.read_csv('/content/Greenie All.csv')
-    return df
-
-# Load the data
-data = load_data()
-
-# Display the data using Streamlit
-st.title('My Streamlit App')
-st.write('Here is the imported data:')
-st.dataframe(data)
-
 #data.drop('index',axis=1)
 #options = ['Environment', 'Social', 'Governance']
 
