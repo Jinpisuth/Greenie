@@ -8,6 +8,6 @@ def load_data():
 # Load the data
 data = load_data()
 
-Data Greenie All - Sheet 1.csv
 st.set_page_config(page_title="ESG Analysis Dashboard", page_icon=":earth_asia:",layout="wide")
 st.title('🌏 ESG Interactive AI Dashboard')
+st.dataframe(data)
