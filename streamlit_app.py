@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 #import plotly.express as px
 import numpy as np
+import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="ESG Interactive AI Dashboard", page_icon=":earth_asia:",layout="wide")
 st.title('🌏 ESG Interactive AI Dashboard')
@@ -24,8 +25,6 @@ st.dataframe(data)
 #selected_option = st.selectbox('Select an ESG Pillar Score:', options)
 
 #st.write('You selected:', selected_option)
-
-import matplotlib.pyplot as plt
 
 # demo1
 st.title('ESG Pillar Score demo1')
