@@ -73,7 +73,7 @@ st.bar_chart(top_10_largest[[selected_column]])
 import matplotlib.pyplot as plt
 import pandas as pd
 import statsmodels.api as sm
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import seaborn as sns
 from streamlit_extras.metric_cards import style_metric_cards 
  
