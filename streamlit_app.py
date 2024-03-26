@@ -7,7 +7,7 @@ st.set_page_config(page_title="ESG Interactive AI Dashboard", page_icon=":earth_
 st.title('🌏 ESG Interactive AI Dashboard')
 
 def load_data():
-    df = pd.read_csv('/content/Data Greenie All - Sheet1.csv')
+    df = pd.read_csv('Data Greenie All - Sheet 1.csv')
     return df
 
 # Load the data
