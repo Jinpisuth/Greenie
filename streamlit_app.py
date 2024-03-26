@@ -34,7 +34,7 @@ st.write('—' * 80)
 #st.dataframe(data)
 
 def load_data():
-    df = pd.read_csv('/content/Data Greenie All - Sheet1.csv') 
+    df = pd.read_csv('Data Greenie All - Sheet 1.csv') 
     return df 
 df = load_data()
 #sidebar
